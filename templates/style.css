@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("D:/i love pdf/templates/qha.png");
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#dropArea {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#preview {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="file"] {
+    display: block;
+}
+
+.form-group input[type="button"] {
+    padding: 10px 20px;
+    background-color: #ffaaaa;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-group input[type="button"]:hover {
+    background-color: #45a049;
+}
